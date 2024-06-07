@@ -1,0 +1,33 @@
+:root{
+	--darkColor:#355c7d;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Reddit Sans Condensed", sans-serif;
+	background:  linear-gradient(109.6deg, rgb(17, 151, 147) 11.2%, rgb(154, 214, 212) 55.4%, rgb(255, 233, 171) 100.2%);
+	background-size: cover;
+	height: 100vh;
+}
+.heading h2 strong{
+	background-image: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px !important;
+}
+button {
+	background-color: var(--darkColor) !important;
+	color: white !important;
+  }
+  #btnUpdate{
+	background-color: #789f3d !important;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    color: green;
+}
